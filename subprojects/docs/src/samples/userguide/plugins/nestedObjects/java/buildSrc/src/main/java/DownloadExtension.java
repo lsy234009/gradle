@@ -7,7 +7,7 @@ public class DownloadExtension {
     private final Server server;
 
     @Inject
-    DownloadExtension(ObjectFactory objectFactory) {
+    public DownloadExtension(ObjectFactory objectFactory) {
         // Use an injected ObjectFactory to create a Server object
         server = objectFactory.newInstance(Server.class);
     }
