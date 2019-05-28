@@ -1,3 +1,4 @@
+import java.net.URI;
 
 public class Server {
     private URI uri;
