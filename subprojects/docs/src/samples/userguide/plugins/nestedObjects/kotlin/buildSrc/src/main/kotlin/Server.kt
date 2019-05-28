@@ -1,4 +1,4 @@
-import javax.net.URI
+import java.net.URI
 
 class Server {
     var uri: URI
